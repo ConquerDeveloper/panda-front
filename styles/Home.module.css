@@ -1,0 +1,57 @@
+.logo {
+    margin-bottom: -5px !important;
+}
+
+.cartIcon {
+    float: right;
+    font-size: 1.2em !important;
+    clear: both;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+}
+
+.headerContainer div:first-child {
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px
+}
+
+.headerContainer div:last-child {
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px
+}
+
+.headerContainer h1 {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+.content img {
+    margin: auto;
+}
+
+.subtitleLabel {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.subtitleLabel h1 {
+    font-size: 22px;
+    margin: 0;
+}
